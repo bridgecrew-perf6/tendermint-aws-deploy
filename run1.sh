@@ -11,7 +11,7 @@ echo
 echo "It will create 30 nodes."
 read -p "Press [Enter] to continue... or [Control + c] to stop..."
 
-WORKDIR=/localnet
+WORKDIR=/oasis-vol
 
 REPODIR=$(pwd)
 
@@ -61,6 +61,35 @@ function entity_update() {
             --entity.node.descriptor $WORKDIR/node/node_genesis.json
 }
 
-entity_init
-node_init
-entity_update
+function download_localnet() {
+    cd /oasis-vol
+    wget https://github.com/tony92151/oasis-aws-deploy/raw/main/localnet.zip
+    unzip localnet.zip
+}
+
+function update_external_ip() {
+    read -p "Select a node config (00~10) : "  NODECON
+    read -p "Enter external ip address : "  HOSTIP
+    # sed -i "s+{{ node_dir }}+$WORKDIR/nodes/node$i+" $WORKDIR/localnet/nodes/node0000/config.yml
+    sed -i "s+{{ external_address }}+$HOSTIP+" $WORKDIR/localnet/nodes/node00$NODECON/config.yml
+}
+
+function update_address_book() {
+    read -p "Select a node config (00~10) : "  NODECON
+    read -p "Enter address book address (If this is genesis node, skip it) : "  ADDRESSBOOK
+    sed -i "s+{{ seed_node_address }}+$ADDRESSBOOK+" $WORKDIR/localnet/nodes/node00$NODECON/config.yml
+}
+
+# entity_init
+# node_init
+# entity_update
+
+
+echo -e "\nDownload example localnet."
+download_localnet
+
+echo -e "\nUpdate external ip of your node."
+update_external_ip
+
+echo -e "\nUpdate address book."
+update_address_book
