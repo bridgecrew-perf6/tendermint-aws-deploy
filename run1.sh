@@ -93,3 +93,6 @@ update_external_ip
 
 echo -e "\nUpdate address book."
 update_address_book
+
+echo -e "\nTo run, use this"
+echo "oasis-node --config /oasis-vol/localnet/nodes/node00$NODECON/config.yml >> /oasis-vol/localnet/logs/node00$NODECON.log 2>&1 &"

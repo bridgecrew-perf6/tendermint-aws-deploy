@@ -37,4 +37,5 @@ verify_docker_running
 echo -e "\nDocker is up."
 
 echo -e "\nTo run container."
+sudo docker pull tony92151/oasis-docker
 echo  "sudo docker run -it -p 8022:22 -p 26656:26656 --name oasis1 tony92151/oasis-docker"
