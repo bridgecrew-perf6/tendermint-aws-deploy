@@ -27,12 +27,18 @@ function install_docker() {
   curl -sS https://get.docker.com/ | sh > /dev/null 2>&1
 }
 
+function install_docker_compose() {
+  sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  sudo chmod +x /usr/local/bin/docker-compose
+}
+
 function start_docker() {
   systemctl start docker.service > /dev/null 2>&1
   systemctl enable docker.service > /dev/null 2>&1
 }
 install_docker
 verify_docker_running
+install_docker_compose
 
 echo -e "\nDocker is up."
 

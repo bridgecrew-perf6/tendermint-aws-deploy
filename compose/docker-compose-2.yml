@@ -10,8 +10,8 @@ services:
       - MODE=node
       - ID=2
     volumes:
-      - ./script:/root
-      - ./nodes:/tendermint
+      - ../script:/root
+      - ../nodes:/tendermint
     entrypoint: /bin/bash
     command: /root/entrypoint.sh
     networks:
@@ -25,8 +25,8 @@ services:
       - MODE=app
       - ID=2
     volumes:
-      - ./script:/root
-      - ./nodes:/tendermint
+      - ../script:/root
+      - ../nodes:/tendermint
     entrypoint: /bin/bash
     command: /root/entrypoint.sh
     networks:

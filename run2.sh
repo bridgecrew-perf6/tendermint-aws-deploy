@@ -43,4 +43,4 @@ sed -i "s+node3:26656+$NODE3:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/conf
 
 #node0:26656
 
-docker-compose -f ./compose/docker-compose-$NODENUM.yml
+sudo docker-compose -f ./compose/docker-compose-$NODENUM.yml up
