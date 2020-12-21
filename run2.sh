@@ -36,11 +36,10 @@ read -p "Enter node0's address: "  NODE0
 read -p "Enter node1's address: "  NODE1
 read -p "Enter node2's address: "  NODE2
 read -p "Enter node3's address: "  NODE3
-
-sed -i "s+node0:26656+$NODE0:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.yml
-sed -i "s+node1:26656+$NODE1:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.yml
-sed -i "s+node2:26656+$NODE2:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.yml
-sed -i "s+node3:26656+$NODE3:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.yml
+sed -i "s+node0:26656+$NODE0:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+node1:26656+$NODE1:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+node2:26656+$NODE2:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+node3:26656+$NODE3:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
 
 #node0:26656
 
