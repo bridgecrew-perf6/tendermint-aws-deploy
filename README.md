@@ -19,5 +19,8 @@ wget -qO - https://github.com/tony92151/oasis-aws-deploy/raw/main/install_doc.sh
 ```bash=
 #wget https://github.com/tony92151/oasis-aws-deploy/raw/main/run1.sh && bash run1.sh
 
-wget https://github.com/tony92151/oasis-aws-deploy/raw/main/run2.sh && bash run2.sh
+
+git clone https://github.com/tony92151/oasis-aws-deploy
+cd oasis-aws-deploy
+bash run2.sh
 ```

@@ -1,0 +1,2397 @@
+{
+  "about_this_example": "This example was a reference in official documents : https://docs.oasis.dev/general/oasis-network/network-parameters",
+  "beacon": {
+    "params": {}
+  },
+  "chain_id": "aws-testnet",
+  "consensus": {
+    "backend": "tendermint",
+    "params": {
+      "empty_block_interval": 0,
+      "gas_costs": {
+        "tx_byte": 1
+      },
+      "max_block_gas": 0,
+      "max_block_size": 22020096,
+      "max_evidence_num": 50,
+      "max_tx_size": 32768,
+      "skip_timeout_commit": false,
+      "state_checkpoint_interval": 0,
+      "timeout_commit": 5000000000
+    }
+  },
+  "epochtime": {
+    "base": 0,
+    "params": {
+      "interval": 60,
+      "//": 600
+    }
+  },
+  "extra_data": null,
+  "genesis_time": "2020-10-09T16:00:00.000000000Z",
+  "halt_epoch": 336,
+  "height": 1,
+  "keymanager": {},
+  "registry": {
+    "entities": [
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggqooxNz3GxQJfJBSh4Fm/EoNCAam8DGVy9PK+HGttZzNlbm9kZXOBWCDmEPVfg6dVRSD9eTwDA32p6PED0bzzC+s/wFPj2HHudg==",
+        "signature": {
+          "public_key": "qooxNz3GxQJfJBSh4Fm/EoNCAam8DGVy9PK+HGttZzM=",
+          "signature": "g5aeUtsmfllnptfnf4QsuAVojGfrMsIU74yYd+Z4OCCrPBZ1qVgyNu/wSr96WM+lAwKEziXizcN6oC3bvfrbBw=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgg7hFkAtuEwrr8edcTkAx2rJRRFMcF/qA/WhNYGpwxj8plbm9kZXOBWCAwFLxoUNen/Vt8tmb+Gjxe3REvOkwJ209L8JdluHZE9Q==",
+        "signature": {
+          "public_key": "7hFkAtuEwrr8edcTkAx2rJRRFMcF/qA/WhNYGpwxj8o=",
+          "signature": "Po62yD6AhZEcMDKjzUHFi5usaY754/WdqWQfuGHclaLDj664iYHTYdg6hn6RujJFL0Lue1vvj+Q/zwzBP9KaDw=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggwsAzS1JwgjdXBicRgmQoE19pSrCwTdH/0S73eJmv37Zlbm9kZXOBWCCODAzVaA2HLN7InoFxSx+6g/P7ke+gLPrKVdcqpJuWRw==",
+        "signature": {
+          "public_key": "wsAzS1JwgjdXBicRgmQoE19pSrCwTdH/0S73eJmv37Y=",
+          "signature": "Rvt0KCfahu+C/QOAlNktSJzJpdYFMca97fweZ/LcmWEbxNDffIHnjskmOPhhdyLMieFXMi5jKARIpsa9WNvxBA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggfLJ0SEWmQxImH7gus1CYG0trmoEu/lAVkY2hmScDIrtlbm9kZXOBWCB8ycAD7eA4CEJg4gLSu1+P+81AGWv/4roBJwy8gnmrfQ==",
+        "signature": {
+          "public_key": "fLJ0SEWmQxImH7gus1CYG0trmoEu/lAVkY2hmScDIrs=",
+          "signature": "/gkz6w7ekpHIzCSeRW1oREC1fDyWA8IS3pywJy02myCKHMRUlXz0LOdv5czETwCkr/R5vos4Baz+uHqR9dtACg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggFF5GTBEEiARODvIgDBeLQJJaJw2FlXo13SfZMyfeKGVlbm9kZXOBWCDgKvGdBoGocweFngkszOrLchHmcPmtxwkgLEB0pSREhw==",
+        "signature": {
+          "public_key": "FF5GTBEEiARODvIgDBeLQJJaJw2FlXo13SfZMyfeKGU=",
+          "signature": "KxSSMbKF9Yy7JkVlaHkKpEi1ejzpkrgIJ9LrKtHB0N+fcWlysyVv/fPvoyg4Ks7LM5T2KzmCzD9Nn+SBcCFtDA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgggxnPEYO2ms/jcKRtWOuFPOtRrHHjyyD1Ilvq0vI2T29lbm9kZXOBWCCwXq0EErICh1xcF6EKArkquSwEWxbZRZt01/2N/uQGPQ==",
+        "signature": {
+          "public_key": "gxnPEYO2ms/jcKRtWOuFPOtRrHHjyyD1Ilvq0vI2T28=",
+          "signature": "NNSV6OzvGX4kfkllsWFjwNe8RX0KUudps5Au22wMH4+x6lsYUa7ddJdlh20fwWPtVcNU4+RePDzodA0RnJt4Dg=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgglJ0anCpUlb2YwdotryPUp4lakcp3zmvDkMlMl2tifmRlbm9kZXOBWCALXVTRxEb+eSwQDBJT2V4/v1qJhJ3HMwbIMMAlzAgOlQ==",
+        "signature": {
+          "public_key": "lJ0anCpUlb2YwdotryPUp4lakcp3zmvDkMlMl2tifmQ=",
+          "signature": "47g25G4q3dkfWuhsel7oFT/ieNsG6ifjuFidwnX2eh4gaXYpzdyqDgw9dcbdkUnl7eHxoSXKCkC7tfz3jVG0BQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggJ8vt7TGTVYB5UVmf/2BW1dF07xW606qdJ+uAOMqs78hlbm9kZXOBWCAwnA7OL1EPVdPiYBr+CxorHcOUYlV8pMGW1AoI8mR8FQ==",
+        "signature": {
+          "public_key": "J8vt7TGTVYB5UVmf/2BW1dF07xW606qdJ+uAOMqs78g=",
+          "signature": "9+N/o/Fo0IuBShR1uVWsPuQ07JfHKwcbTAGvg28IxFIhXxU+zNEzQXMDfq3e9lhS9a4v/TtMW+vQqlsvJRQHCA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFgg/WU6ru65awQ3GKwvh5XZ8TKrOCJ7Dmu21vO5esfwOg9lbm9kZXOBWCAQw+7kpfBDdN4Ge/NLbfjk0jkPuV8ar5jzLUvNJeVIrw==",
+        "signature": {
+          "public_key": "/WU6ru65awQ3GKwvh5XZ8TKrOCJ7Dmu21vO5esfwOg8=",
+          "signature": "x6tnTZuklt46AtcaZBHz91CEivx8ZkGuzJEyWsOwmZixXktaNPzU3EMOf3Oz+qEqkVn5N2WLGW/Jiu9FHqk/CA=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggYJjso0s7wXaV4X+92MqqDpUFDJiFddHRB8Ma3EZks8dlbm9kZXOBWCByvUjU2H14RWHiryHyaxoaU0aoQ6l4u4f+BuHWOpp7ug==",
+        "signature": {
+          "public_key": "YJjso0s7wXaV4X+92MqqDpUFDJiFddHRB8Ma3EZks8c=",
+          "signature": "YIWDp82lY0JBf97qcLBO8iMqWjciYbL36J12u8tpNYptuzPyCMIgMAA8Lab01R6m4MgW9swwUW609uRzAvkbBQ=="
+        }
+      },
+      {
+        "untrusted_raw_value": "o2F2AWJpZFggn5W6u1giqF03HHf3ms9OXhOHBpD0KFU+/Ou05jSWomRlbm9kZXOBWCCG1mLoh+4GWdKqUzkHyjmBQxsl7G14Vin4NRFIh31MWQ==",
+        "signature": {
+          "public_key": "n5W6u1giqF03HHf3ms9OXhOHBpD0KFU+/Ou05jSWomQ=",
+          "signature": "IK3Dtpv29FJVB2aliH6Ztw+5VY/NLoLm1tMzzRFuw+/jXHTHbtu+2+m+JMESerLnJ33cw02ypXCWK79/F5XVAg=="
+        }
+      }
+    ],
+    "nodes": [
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg5hD1X4OnVUUg/Xk8AwN9qejxA9G88wvrP8BT49hx7nZjcDJwomJpZFgg4HwkfQj18Gn3zumn9JxHzTu4lxQBWt+D3EfvUYAORHZpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIK9lMLC6K143vDep06qaFc23a7svvk4qd9chJr5WGYvZaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCBZGVksxyKV/p5wIvhPfJOZLuVblJZfc+44Wiz8jNY3GGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYILp5iy10Ekf4k15mN5XqaUGh+PhY0LtM7r7ciBEjCCS8aWFkZHJlc3Nlc4GiYmlkWCDgfCR9CPXwaffO6af0nEfNO7iXFAFa34PcR+9RgA5EdmdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCCqijE3PcbFAl8kFKHgWb8Sg0IBqbwMZXL08r4ca21nM2pleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "5hD1X4OnVUUg/Xk8AwN9qejxA9G88wvrP8BT49hx7nY=",
+            "signature": "7qvjh3LUMHP7zXqZKixAoc0CSWekI9aTwLYSRejmlAKoxcNDco6WZB8wOGdrAVEnLtEOVkih1hD6++TZ5k90BA=="
+          },
+          {
+            "public_key": "4HwkfQj18Gn3zumn9JxHzTu4lxQBWt+D3EfvUYAORHY=",
+            "signature": "LflOzcEZnj8YgQoLO/Q994n7SwQB5gYDlVQqk2qBdSwuTutcnlJ9pFDBsjozAE+i2EVcuz7e0T9k5m+7NwZCAw=="
+          },
+          {
+            "public_key": "unmLLXQSR/iTXmY3leppQaH4+FjQu0zuvtyIESMIJLw=",
+            "signature": "eBnwJCfcQfLeoAIkfKU0bx2ooigZqQGzzfQLnbJyo4j9heEIMeqJniPvBRF3YSBneqHxn/d8YZaK68xi06ulBg=="
+          },
+          {
+            "public_key": "r2UwsLorXje8N6nTqpoVzbdruy++Tip31yEmvlYZi9k=",
+            "signature": "fllYHRxpY4AErHLGqaB9BZDZhQ9ulpg+PtgIE8JGWJghZ+DZxCTjhMlwFS9cddRntqpDy/RrROmdmdtjE3GADQ=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggMBS8aFDXp/1bfLZm/ho8Xt0RLzpMCdtPS/CXZbh2RPVjcDJwomJpZFggJabOc8JGCuzW6F8TiJNbyC0IjKzxSrQQYt+SyHCFk8BpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIL3iX80LH9ILTxMqJQmXM+V8hxOmaEOLmvSlMCl62JfNaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCDLSZBwmzP3PPWC+OvI5b089wZJMcMBcWZm+pexCjYjXmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIEP9ULaiV8Bwbd/rtUl2StWS08kG5lC6OE53iB5P5va5aWFkZHJlc3Nlc4GiYmlkWCAlps5zwkYK7NboXxOIk1vILQiMrPFKtBBi35LIcIWTwGdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCDuEWQC24TCuvx51xOQDHaslFEUxwX+oD9aE1ganDGPympleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "MBS8aFDXp/1bfLZm/ho8Xt0RLzpMCdtPS/CXZbh2RPU=",
+            "signature": "vLUmYTO5ZZ/YrgrD4A2NNSsJR6gS3CQhqzzSDZARAptTfncQCE33gm1qGEzQkToUzoQnvPClnftJRVU9W9ODCg=="
+          },
+          {
+            "public_key": "JabOc8JGCuzW6F8TiJNbyC0IjKzxSrQQYt+SyHCFk8A=",
+            "signature": "8tL9aYM0BDXn9V7BtzVWbhrDnQFlNa5vniYcrOPkDodZLQY/+n4jdZighoB2tMGp3njze4r8thHGnynA2Rg3DQ=="
+          },
+          {
+            "public_key": "Q/1QtqJXwHBt3+u1SXZK1ZLTyQbmULo4TneIHk/m9rk=",
+            "signature": "uRyge5emra2F8X+MwwEQoGpW7xqA6puX/2HqUn34n/vygz0LK705fHYPZeGObNIHo/xTddVMN3iDoKpJJYFmBg=="
+          },
+          {
+            "public_key": "veJfzQsf0gtPEyolCZcz5XyHE6ZoQ4ua9KUwKXrYl80=",
+            "signature": "8wN5OLQDAP0wya4RMXsW4KD2g0GU24EkFmQmkc/6UAzFDR/3MsWK6CjoVLz6jwq0/9k9qbkBTvYhZJaikRWMDg=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggjgwM1WgNhyzeyJ6BcUsfuoPz+5HvoCz6ylXXKqSblkdjcDJwomJpZFggFjsaCtFkFdgx9jpZjKfgQeMe90EA5VbyGRqWZb4B6hVpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIKDhRJYWe+h98uXw9Ju3LGTl/AxwiH2xyDagYkKxR6ncaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCA7DBn92ClzalZhtWqEkzVXqbXn1cZodD4J1s4/hJ8lDmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIMUplZJxB/rIVhmt8D32jZXTAxEA0bgW/P08WOxwhwLUaWFkZHJlc3Nlc4GiYmlkWCAWOxoK0WQV2DH2OlmMp+BB4x73QQDlVvIZGpZlvgHqFWdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCDCwDNLUnCCN1cGJxGCZCgTX2lKsLBN0f/RLvd4ma/ftmpleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "jgwM1WgNhyzeyJ6BcUsfuoPz+5HvoCz6ylXXKqSblkc=",
+            "signature": "+VGZRWvdkG/3QBBdA5OIvra0W89fNOYR9QIXt/NU89Lf0WxRWCU3Vlc/Ow7N5CzrzwK7Uva6nM0XhoSN4jR4BA=="
+          },
+          {
+            "public_key": "FjsaCtFkFdgx9jpZjKfgQeMe90EA5VbyGRqWZb4B6hU=",
+            "signature": "0qOoXdF+gghYmNR8YH0Ov4HPKqsQSXDxSOF2zJsu1U2ymiHQQpB+FgxBI+lti3mW5VDQHsGy/Fl26ipwtRjZAA=="
+          },
+          {
+            "public_key": "xSmVknEH+shWGa3wPfaNldMDEQDRuBb8/TxY7HCHAtQ=",
+            "signature": "ILdVs5M5eX6CKOqD6zVVRhWLQ3bYfK8i6APTAhsYmIoX10Uai1BAhRqUoj1Yh3KORnBpJOFo5n+MlecqS7/ICQ=="
+          },
+          {
+            "public_key": "oOFElhZ76H3y5fD0m7csZOX8DHCIfbHINqBiQrFHqdw=",
+            "signature": "MgKAthBwnSE7P5WkUGoIN2iC5wKqSc6wMiOFzIQdR1oqp7Jtj8NzwS6xrz5L8Jr3VeF1g5NMbDxcadEcihhqAA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggfMnAA+3gOAhCYOIC0rtfj/vNQBlr/+K6AScMvIJ5q31jcDJwomJpZFggEn2xCrx4OmCAisDbBKCVHO+42c1TV4W+wo4TVwR4dKxpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIMZDn2j0JJCgtEltaaDq5ITFuWW61esV1reqOUUIG4GWaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCByGWuCMm3VKSNFvDjxGerCQOCeRTsQVxju4T2rRDRpAmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIAywAOVldTYOPZJypvrtW8/PiNl9Zk9h7i0wQN0kx8NqaWFkZHJlc3Nlc4GiYmlkWCASfbEKvHg6YICKwNsEoJUc77jZzVNXhb7CjhNXBHh0rGdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCB8snRIRaZDEiYfuC6zUJgbS2uagS7+UBWRjaGZJwMiu2pleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "fMnAA+3gOAhCYOIC0rtfj/vNQBlr/+K6AScMvIJ5q30=",
+            "signature": "2UIZIrFpH+ZOVkNeltBAxic8cQA09Yq3tCxhMqFd7z89fpCNKG1rDrKQPBqiIa9qq0JfjzO2ui2uXDzfpW++Dw=="
+          },
+          {
+            "public_key": "En2xCrx4OmCAisDbBKCVHO+42c1TV4W+wo4TVwR4dKw=",
+            "signature": "L2rtSE3Q6Y3N3Tox4RJoSXMRPkdwF4ghkSMw89yhRgYw7QkCuSrrEt2SVI5zw+860oSkNAa3h6ejdEl1cpHIBw=="
+          },
+          {
+            "public_key": "DLAA5WV1Ng49knKm+u1bz8+I2X1mT2HuLTBA3STHw2o=",
+            "signature": "BfUDObHWYAok2Wkwe07z/VMnaofLDuZ2qqh6lIIIF4kpKj/Yfh/oEumFNKcXTl5HSlOorHTx/ZyArsLDtyZ+Dw=="
+          },
+          {
+            "public_key": "xkOfaPQkkKC0SW1poOrkhMW5ZbrV6xXWt6o5RQgbgZY=",
+            "signature": "U+gxLO2qffINvnj4VL9uwPbtIJhFX3SrcpsLYxHIpgsILW5Fsb1w7xM4WsyxXl0wZqUhQnhO3KB4Vt4H/ydRDw=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgg4CrxnQaBqHMHhZ4JLMzqy3IR5nD5rccJICxAdKUkRIdjcDJwomJpZFggPohgHo2Q2V1cRzP/FcZUpFHQ6wPo8z0o5AGSRGSyIz1pYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIOVzjIk18w7R39xpjICqBkx7CmEcsEMc+qsfBoaBO/7WaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCC/LNLiSMasAfzC0j5G46VrXtOuOeAGHdinZPQAmaaXkWVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIMeq0UKet945G55lOPIYS57+CF4j64FMyQYXoiAlFikgaWFkZHJlc3Nlc4GiYmlkWCA+iGAejZDZXVxHM/8VxlSkUdDrA+jzPSjkAZJEZLIjPWdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCAUXkZMEQSIBE4O8iAMF4tAklonDYWVejXdJ9kzJ94oZWpleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "4CrxnQaBqHMHhZ4JLMzqy3IR5nD5rccJICxAdKUkRIc=",
+            "signature": "QW+qG6h4Lefdr185d6Bhpu3Ga+KWjLU3xXlw8X8Ubjq0bKldBUgPdM/LbjUK8Tcx7+lO5gjTuszAH5juXz+FCQ=="
+          },
+          {
+            "public_key": "PohgHo2Q2V1cRzP/FcZUpFHQ6wPo8z0o5AGSRGSyIz0=",
+            "signature": "3x2pBqylPtIMRoe2VWLgtPtCrQRwkSMo2yUBPhetLYG3KXvIJMV22JHX7s+G58ynS9xSv/INDazF6C2IQL5UBQ=="
+          },
+          {
+            "public_key": "x6rRQp633jkbnmU48hhLnv4IXiPrgUzJBheiICUWKSA=",
+            "signature": "Ol1I0w/qNNP5w7WFAOCoPAtWF5s26iR691Vfc30t+ElE0RaQruCHRQv+5iR4qQw86CVVgi6+Ug81CivITw8wCQ=="
+          },
+          {
+            "public_key": "5XOMiTXzDtHf3GmMgKoGTHsKYRywQxz6qx8GhoE7/tY=",
+            "signature": "1HNUQ9UC4SeL8GkythpXJhYJJlvoRdl8iGrllI6orHkmXVckWAv1IG9bf197ntjuEwlbF9qUYnnQbUXDKXSaCA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggsF6tBBKyAodcXBehCgK5KrksBFsW2UWbdNf9jf7kBj1jcDJwomJpZFggP68+jGSefhsFZ5gte8XLiInuqGU3OOP993BoMUhOd1tpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIFXy2xZHBIfM6oXemtne+L2BICZhZtWvAl50+fQF2m/taWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCD39PuNUTjcWd0BtKBGLNt/SMGRhERa5TvKe82ed71OUmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIFmQ3YxzDXvBrt/6/NZ6IMxkz/GMupWVNp9kTBrjaUh8aWFkZHJlc3Nlc4GiYmlkWCA/rz6MZJ5+GwVnmC17xcuIie6oZTc44/33cGgxSE53W2dhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCCDGc8Rg7aaz+NwpG1Y64U861GscePLIPUiW+rS8jZPb2pleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "sF6tBBKyAodcXBehCgK5KrksBFsW2UWbdNf9jf7kBj0=",
+            "signature": "wQ6KGRY6e1CV7CxQu5ymmtwtvDdWLBmvREnzPGIsK+1MHgTHUyDdbISYSjMiT16toMq3u5WkFqkvouDbHRtaDA=="
+          },
+          {
+            "public_key": "P68+jGSefhsFZ5gte8XLiInuqGU3OOP993BoMUhOd1s=",
+            "signature": "T24xKNBxrWPftfZSVVffyDXF3fmEFweBu1/s1G0bRydrht4+kSJ/krqf0tNEJaSv+aihuAmWtiG5Is5wz9DGDw=="
+          },
+          {
+            "public_key": "WZDdjHMNe8Gu3/r81nogzGTP8Yy6lZU2n2RMGuNpSHw=",
+            "signature": "pnbeOUDKTs0pD2wFprsJI9Cma+oVlZjGmobwyElMSQZFcB5CuiljE2fvNQ88rDI72NtyB/wkFl92X3fbzHDOCw=="
+          },
+          {
+            "public_key": "VfLbFkcEh8zqhd6a2d74vYEgJmFm1a8CXnT59AXab+0=",
+            "signature": "i6o0hvSGAx0TJISWGVVrxNfybYTIt5hqZdd2qveIqCkrHaC/7jp8UBDajK/d3LiP9eU9zx0WNOt25z1cHmKoAg=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggC11U0cRG/nksEAwSU9leP79aiYSdxzMGyDDAJcwIDpVjcDJwomJpZFgghXEuIF1rwdiSmg1cJR5AEsLICBTGGW5ABjpZqtKTEeJpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIOZ7sLB4Qk+7H0kCwWeQzgbR/Wc6q9GEPRyxyIBGlEFraWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCB3BgsL4asUp5XMatTIEwoOZvCxVHefTN3uekfllYnXeGVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIFgOWkq/jkx2r+HKYYmhqkHQ7SbujIJ5m+rqhzw9R5hUaWFkZHJlc3Nlc4GiYmlkWCCFcS4gXWvB2JKaDVwlHkASwsgIFMYZbkAGOlmq0pMR4mdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCCUnRqcKlSVvZjB2i2vI9SniVqRynfOa8OQyUyXa2J+ZGpleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "C11U0cRG/nksEAwSU9leP79aiYSdxzMGyDDAJcwIDpU=",
+            "signature": "XdwZJwf3N07YriHZLXRnRqhtNDZBUgQftMBcDATLKACRYgJNNVuU0pDhUjRFVdnALVxGawzrB66FyQVelThNDQ=="
+          },
+          {
+            "public_key": "hXEuIF1rwdiSmg1cJR5AEsLICBTGGW5ABjpZqtKTEeI=",
+            "signature": "wwVoPYVDpmNJIrRGJeoQ2fS5/9dFmOcYN7t62Br672Y9LIJeNuWqaaq+tUuTVNAvRon5l95Zu31UWuNXRhOpAw=="
+          },
+          {
+            "public_key": "WA5aSr+OTHav4cphiaGqQdDtJu6Mgnmb6uqHPD1HmFQ=",
+            "signature": "9k/0wAo3es8TnqBnfDrRV8gZLf5US9nQFwikNnjuvbS63zKjfmw7MQyvZvnkyr+KwOiY5mJnGMz87sh0qRcPCA=="
+          },
+          {
+            "public_key": "5nuwsHhCT7sfSQLBZ5DOBtH9Zzqr0YQ9HLHIgEaUQWs=",
+            "signature": "LBl1fTP/sT6g5bMWve6nIm3hLZFjCZImIO3fpEGPUCqRynNXGtIyL9C9lAr62wjK1c5vSxnSu8L8XMSB6RbwDA=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggMJwOzi9RD1XT4mAa/gsaKx3DlGJVfKTBltQKCPJkfBVjcDJwomJpZFgg5gg5OH/JqOEIu/1JImD5HfKaWYdarb8jWDOxVRC/jBFpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIIb+aeyoefezp5WlFiCqjt2FBwcakHzMpQxfFjF2FRHlaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCChlF6/K8SfDKmTuom5VWwxVwdCulg5pQBZbnMlT4JZjWVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYINasuwDkgWeTFvuph3DtYa55FHDL3ma9YSpJVvmKlL8RaWFkZHJlc3Nlc4GiYmlkWCDmCDk4f8mo4Qi7/UkiYPkd8ppZh1qtvyNYM7FVEL+MEWdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCAny+3tMZNVgHlRWZ//YFbV0XTvFbrTqp0n64A4yqzvyGpleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "MJwOzi9RD1XT4mAa/gsaKx3DlGJVfKTBltQKCPJkfBU=",
+            "signature": "Gr1ZIJGh4ogWGC0+8RzZBJnP0WOUZdt6nA0UJcFunSFIwDVJF6Wk/ekL6XvZ5d3td3vcS5TWv2wEEUPPRojcCQ=="
+          },
+          {
+            "public_key": "5gg5OH/JqOEIu/1JImD5HfKaWYdarb8jWDOxVRC/jBE=",
+            "signature": "fG03GjYfR3ulJj6CMPwDi0/Jg5iL1ceMVEU7v6VtQegYXi9MTaRrCSbje5pCA823oku0/KKU/iOZc3PY5VddBQ=="
+          },
+          {
+            "public_key": "1qy7AOSBZ5MW+6mHcO1hrnkUcMveZr1hKklW+YqUvxE=",
+            "signature": "2Wxi15GIjfXy7sbqfaGQok6s9vpBbn3CPRBMyznFat6aCfbeJkISyBS4n6452XV256oZ4We9C7qgUwO7U4rqAA=="
+          },
+          {
+            "public_key": "hv5p7Kh597OnlaUWIKqO3YUHBxqQfMylDF8WMXYVEeU=",
+            "signature": "EqQ3y84c0BcyTcKlwkreC3E33eNQAFVtB45ffcv3LpnSCg3wcyVxfugS0183QXFfkrJs2HhMhk5e1oGs79hOBw=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggEMPu5KXwQ3TeBnvzS2345NI5D7lfGq+Y8y1LzSXlSK9jcDJwomJpZFgg7eSH6FvDCF2C3j39+hmy+YLGxysSkDMvPhE5HN9r4+xpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIJd8CqBJRQ3qeh1suXBHR6LycbHdErNhvG7uYb5/VE6kaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCCPXixagvtZ73LOH9wx+14rq5LTkw+9/1OAzinWFHOm72Vyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYINDx2GYvcStWU0KpWgD3/dRfUYd4etWkv9+VQ+8hIWyfaWFkZHJlc3Nlc4GiYmlkWCDt5IfoW8MIXYLePf36GbL5gsbHKxKQMy8+ETkc32vj7GdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCD9ZTqu7rlrBDcYrC+HldnxMqs4InsOa7bW87l6x/A6D2pleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "EMPu5KXwQ3TeBnvzS2345NI5D7lfGq+Y8y1LzSXlSK8=",
+            "signature": "sO9wHRsynzZqu9ed/UXc4aLTScyCXoYL67VSNYXcwIbVfFV+1voad0+3x18cgYkjvyGAr5y6+xghmxxnL8ejAw=="
+          },
+          {
+            "public_key": "7eSH6FvDCF2C3j39+hmy+YLGxysSkDMvPhE5HN9r4+w=",
+            "signature": "v1Lwg/2jgyf71LNHjIgpVM2w577KKi2dKBIKxWb2f0Z8WVhgFGv47ycqnYGU6tzkKbPDaQ3i7thQKvkjvOdaDw=="
+          },
+          {
+            "public_key": "0PHYZi9xK1ZTQqlaAPf91F9Rh3h61aS/35VD7yEhbJ8=",
+            "signature": "uoPp5BMnDAjD85hzSe1MmFY6IBj3fTSusky3loQpZOxeUcZiH23+nCWox5reZI06Y25s7EjFFKGx/vkvRrHcBQ=="
+          },
+          {
+            "public_key": "l3wKoElFDep6HWy5cEdHovJxsd0Ss2G8bu5hvn9UTqQ=",
+            "signature": "+WoxLghk6GLdzicKqbVlFofsMeM+htV8ID/vcjc8wdIzWwo2OlHDFfYcy2vVBtXnSusIb808wdJwbwDLR7I2AQ=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFggcr1I1Nh9eEVh4q8h8msaGlNGqEOpeLuH/gbh1jqae7pjcDJwomJpZFggPYT9YlSdJmFeoEu26gJODpYaUS2LXaa06goBN3hojXJpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYIJWu+G4AkGPmbASehMOfppxCW+3eRTAejrTCXdaZ2MMaaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCDz/RLmDYVOU9Joe5RVrhEYTO7J9+dm/74yiCbmAz1qw2Vyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIJp0CiZI8X2pXdCfPLp1/lH0+2oiy4hCWPA5hKjulcoZaWFkZHJlc3Nlc4GiYmlkWCA9hP1iVJ0mYV6gS7bqAk4OlhpRLYtdprTqCgE3eGiNcmdhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCBgmOyjSzvBdpXhf73YyqoOlQUMmIV10dEHwxrcRmSzx2pleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "cr1I1Nh9eEVh4q8h8msaGlNGqEOpeLuH/gbh1jqae7o=",
+            "signature": "kQN/CKbxnokq087HKhZWo0CAv4T7ZS1lwsrX7GTf8lt8SzJbQfNozCceTRzLxZ0x649ahHI2u1Vt+q006q9XBA=="
+          },
+          {
+            "public_key": "PYT9YlSdJmFeoEu26gJODpYaUS2LXaa06goBN3hojXI=",
+            "signature": "fIAwJQktYr5OTcPWKHey7BcOtRo1ahOPiMEfZOLvJOpho5AaqY/KPfhSlJSv3+3MFu20sL6Ww1G9Jct5qgmNBA=="
+          },
+          {
+            "public_key": "mnQKJkjxfald0J88unX+UfT7aiLLiEJY8DmEqO6Vyhk=",
+            "signature": "5ZC2jbeeJzxc882YfDlLVHJPkUytL/qk+kHiVWexvbE6UWiyXaSYytdrhcKlDIqZsv0jhgQx7fJrFqWqRikPAA=="
+          },
+          {
+            "public_key": "la74bgCQY+ZsBJ6Ew5+mnEJb7d5FMB6OtMJd1pnYwxo=",
+            "signature": "2a+gJRCHdVAw32bSC23KAqq0y7Qvr6T1FQ9+JFClWVxsTZR71/OCq7fEmpZHCWjPd6pSE3VkeaCJicM58/MGAw=="
+          }
+        ]
+      },
+      {
+        "untrusted_raw_value": "qWF2AWJpZFgghtZi6IfuBlnSqlM5B8o5gUMbJexteFYp+DURSId9TFljcDJwomJpZFggT5BpA7leYHimk39LdessZuT/MWFJsJUiz4fCnOF09YdpYWRkcmVzc2Vz9mN0bHOjZ3B1Yl9rZXlYII8ge7C4UoOUSsYXRGpf6DjqwNyqB1vqiM0O3O8yWyyeaWFkZHJlc3Nlc/ZsbmV4dF9wdWJfa2V5WCAT/9cD/mF4oG8ry4xn2n29D4nBH1jKMsug8c6vvsSYDmVyb2xlcwhocnVudGltZXP2aWNvbnNlbnN1c6JiaWRYIJbWVanU4hb7GvvVsb7RkxqiMWtSzhYfoc1UgwLVRIqfaWFkZHJlc3Nlc4GiYmlkWCBPkGkDuV5geKaTf0t16yxm5P8xYUmwlSLPh8Kc4XT1h2dhZGRyZXNzo2JJUFAAAAAAAAAAAAAA//+sZAACZFBvcnQZaCBkWm9uZWBpZW50aXR5X2lkWCCflbq7WCKoXTccd/eaz05eE4cGkPQoVT7867TmNJaiZGpleHBpcmF0aW9uAA==",
+        "signatures": [
+          {
+            "public_key": "htZi6IfuBlnSqlM5B8o5gUMbJexteFYp+DURSId9TFk=",
+            "signature": "m/naXlhKdMfT9O/7YwJHsN9Io+8JEw68MWTT/7nrK0fJun8V4TyaDA8WbX3U7t0JqVFqAW38PcVhIMKoVIPsDA=="
+          },
+          {
+            "public_key": "T5BpA7leYHimk39LdessZuT/MWFJsJUiz4fCnOF09Yc=",
+            "signature": "hDnEwKgJ+VNwtxS9fdeA6/YA9ephw4F/l4zK/wXmLPHgHIsRubFdmCfL/6KL+9wCYwxXr16xjXXdsbs7t7N6BQ=="
+          },
+          {
+            "public_key": "ltZVqdTiFvsa+9WxvtGTGqIxa1LOFh+hzVSDAtVEip8=",
+            "signature": "bsBXN3JBGSFEOdB1T8hfjX42eXizrLHFv6RYA+RF7hOSOtKCkjFJ9iUccysU9+P30QMYLCqN/3tiXRvFJ7EdDw=="
+          },
+          {
+            "public_key": "jyB7sLhSg5RKxhdEal/oOOrA3KoHW+qIzQ7c7zJbLJ4=",
+            "signature": "TBCQN8xmEs7fLUIYrN4UIne6hgHsbBcvK9s8CpnAkrOQ7kY9VTTYw+8TKEhKUG48tJ9x29rZOxQjFRSPjY7oCA=="
+          }
+        ]
+      }
+    ],
+    "params": {
+      "gas_costs": {
+        "deregister_entity": 1000,
+        "register_entity": 1000,
+        "register_node": 1000,
+        "register_runtime": 1000,
+        "runtime_epoch_maintenance": 1000,
+        "unfreeze_node": 1000,
+        "update_keymanager": 1000
+      },
+      "max_node_expiration": 2
+    }
+  },
+  "roothash": {
+    "params": {
+      "gas_costs": {
+        "compute_commit": 10000,
+        "merge_commit": 10000
+      }
+    }
+  },
+  "scheduler": {
+    "params": {
+      "max_validators": 80,
+      "max_validators_per_entity": 1,
+      "min_validators": 2,
+      "reward_factor_epoch_election_any": "0"
+    }
+  },
+  "staking": {
+    "common_pool": "9999967000000000000",
+    "common_pool_is": "CommonPool is the network's common stake pool",
+    "delegations": {
+      "oasis1qp5ea8jhk578rwra56ruj99m5v9rmsjf2s0dh4w7": {
+        "oasis1qp5ea8jhk578rwra56ruj99m5v9rmsjf2s0dh4w7": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qphjlqacz5wa653npw0s6hc5485asqaym5039g96": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qrmxxcvgscnyjz762m07ndw39ccl7ydr4vs6assy": {
+        "oasis1qrmxxcvgscnyjz762m07ndw39ccl7ydr4vs6assy": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qqegh67u6jrz5k0hvqnn72g2l0tryr5d4yarpefv": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qz0zu00fxkdk8j0qvefvaus0sfsnsv5zyqykg3n3": {
+        "oasis1qz0zu00fxkdk8j0qvefvaus0sfsnsv5zyqykg3n3": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qqcam8d4ml44hzeq7gquwxxtnl4r6wzjn5yfzze4": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qr8vxyf5ph9kk69gnnfc9ccgkqmswmwmacscgfuv": {
+        "oasis1qr8vxyf5ph9kk69gnnfc9ccgkqmswmwmacscgfuv": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qppw5020m96vw8d5wq3fvgh8ex9szns7hyda0zwm": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qq3z43j4yzpkysrn6lhvvfq6st2k3gx39ye0um6t": {
+        "oasis1qq3z43j4yzpkysrn6lhvvfq6st2k3gx39ye0um6t": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qzkhl330wg7dmea447evnm0sj47rlzs7rgak3nsy": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qqa92yuwdvwgmfww3gm2jagkxp3cwx99jvn55kk9": {
+        "oasis1qqa92yuwdvwgmfww3gm2jagkxp3cwx99jvn55kk9": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qzwrh7p3w0yhm9874he22cd2z2nz9968wgzsza77": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qpcuptw8w6f248pp3u34kgyxzwntyewzgs9qqkrf": {
+        "oasis1qpcuptw8w6f248pp3u34kgyxzwntyewzgs9qqkrf": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qqv68tqgsu90yt3g75ee9c909cy0rt7pfgcndpxq": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qz0nlkz6txgwv7646l4d5el5vfje9ahzxsquz3na": {
+        "oasis1qz0nlkz6txgwv7646l4d5el5vfje9ahzxsquz3na": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qplmnlamdu004y9jywxkvmp4mpexdn7e7q0j4yxv": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qppdkz249zr9ew6ue9xx563dqxpl6xvydut85r5w": {
+        "oasis1qppdkz249zr9ew6ue9xx563dqxpl6xvydut85r5w": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qrgzdnm5crtzmuw6tfwtyzkdkrqc50fquswzszcg": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qq3j0eg7eruttt97l64edcreya2dx0nygqj6645f": {
+        "oasis1qq3j0eg7eruttt97l64edcreya2dx0nygqj6645f": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qzcskgsjenfag3n55xuuc4e4nycplve37u24qf4s": {
+          "shares": "1000000000000000"
+        }
+      },
+      "oasis1qqnr0eyhscqr7q8mhfyznqq64294f4ul9y22u4uy": {
+        "oasis1qqnr0eyhscqr7q8mhfyznqq64294f4ul9y22u4uy": {
+          "shares": "4000000000000000"
+        },
+        "oasis1qzl7umygh7yjax0mn0f2x84g572xt3v7ey3x3p5d": {
+          "shares": "1000000000000000"
+        }
+      }
+    },
+    "last_block_fees": "0",
+    "ledger": {
+      "oasis1qp5ea8jhk578rwra56ruj99m5v9rmsjf2s0dh4w7": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qrmxxcvgscnyjz762m07ndw39ccl7ydr4vs6assy": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qz0zu00fxkdk8j0qvefvaus0sfsnsv5zyqykg3n3": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qr8vxyf5ph9kk69gnnfc9ccgkqmswmwmacscgfuv": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qq3z43j4yzpkysrn6lhvvfq6st2k3gx39ye0um6t": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qqa92yuwdvwgmfww3gm2jagkxp3cwx99jvn55kk9": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qpcuptw8w6f248pp3u34kgyxzwntyewzgs9qqkrf": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qz0nlkz6txgwv7646l4d5el5vfje9ahzxsquz3na": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qppdkz249zr9ew6ue9xx563dqxpl6xvydut85r5w": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qq3j0eg7eruttt97l64edcreya2dx0nygqj6645f": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      },
+      "oasis1qqnr0eyhscqr7q8mhfyznqq64294f4ul9y22u4uy": {
+        "escrow": {
+          "active": {
+            "balance": "500000000000",
+            "total_shares": "5000000000000000"
+          },
+          "commission_schedule": {
+            "bounds": [
+              {
+                "rate_max": "20000",
+                "rate_min": "0"
+              }
+            ],
+            "rates": [
+              {
+                "rate": "5000"
+              }
+            ]
+          },
+          "debonding": {
+            "balance": "0",
+            "total_shares": "0"
+          },
+          "stake_accumulator": {}
+        },
+        "general": {
+          "balance": "2500000000000"
+        }
+      }
+    },
+    "params": {
+      "commission_schedule_rules": {
+        "max_bound_steps": 10,
+        "max_rate_steps": 10,
+        "rate_bound_lead": 336,
+        "rate_change_interval": 1
+      },
+      "debonding_interval": 60,
+      "//": 336,
+      "fee_split_weight_next_propose": "1",
+      "fee_split_weight_propose": "2",
+      "fee_split_weight_vote": "1",
+      "gas_costs": {
+        "add_escrow": 1000,
+        "burn": 1000,
+        "reclaim_escrow": 1000,
+        "transfer": 1000
+      },
+      "min_delegation": "10000000000",
+      "reward_factor_block_proposed": "0",
+      "reward_factor_epoch_signed": "1",
+      "reward_schedule": [
+        {
+          "scale": "1595",
+          "until": 3696
+        },
+        {
+          "scale": "1594",
+          "until": 3720
+        },
+        {
+          "scale": "1593",
+          "until": 3744
+        },
+        {
+          "scale": "1591",
+          "until": 3768
+        },
+        {
+          "scale": "1590",
+          "until": 3792
+        },
+        {
+          "scale": "1589",
+          "until": 3816
+        },
+        {
+          "scale": "1588",
+          "until": 3840
+        },
+        {
+          "scale": "1586",
+          "until": 3864
+        },
+        {
+          "scale": "1584",
+          "until": 3888
+        },
+        {
+          "scale": "1583",
+          "until": 3912
+        },
+        {
+          "scale": "1581",
+          "until": 3936
+        },
+        {
+          "scale": "1579",
+          "until": 3960
+        },
+        {
+          "scale": "1576",
+          "until": 3984
+        },
+        {
+          "scale": "1574",
+          "until": 4008
+        },
+        {
+          "scale": "1571",
+          "until": 4032
+        },
+        {
+          "scale": "1568",
+          "until": 4056
+        },
+        {
+          "scale": "1564",
+          "until": 4080
+        },
+        {
+          "scale": "1560",
+          "until": 4104
+        },
+        {
+          "scale": "1556",
+          "until": 4128
+        },
+        {
+          "scale": "1551",
+          "until": 4152
+        },
+        {
+          "scale": "1545",
+          "until": 4176
+        },
+        {
+          "scale": "1538",
+          "until": 4200
+        },
+        {
+          "scale": "1531",
+          "until": 4224
+        },
+        {
+          "scale": "1522",
+          "until": 4248
+        },
+        {
+          "scale": "1512",
+          "until": 4272
+        },
+        {
+          "scale": "1501",
+          "until": 4296
+        },
+        {
+          "scale": "1489",
+          "until": 4320
+        },
+        {
+          "scale": "1475",
+          "until": 4344
+        },
+        {
+          "scale": "1461",
+          "until": 4368
+        },
+        {
+          "scale": "1446",
+          "until": 4392
+        },
+        {
+          "scale": "1430",
+          "until": 4416
+        },
+        {
+          "scale": "1416",
+          "until": 4440
+        },
+        {
+          "scale": "1402",
+          "until": 4464
+        },
+        {
+          "scale": "1390",
+          "until": 4488
+        },
+        {
+          "scale": "1378",
+          "until": 4512
+        },
+        {
+          "scale": "1369",
+          "until": 4536
+        },
+        {
+          "scale": "1360",
+          "until": 4560
+        },
+        {
+          "scale": "1352",
+          "until": 4584
+        },
+        {
+          "scale": "1345",
+          "until": 4608
+        },
+        {
+          "scale": "1340",
+          "until": 4632
+        },
+        {
+          "scale": "1334",
+          "until": 4656
+        },
+        {
+          "scale": "1330",
+          "until": 4680
+        },
+        {
+          "scale": "1326",
+          "until": 4704
+        },
+        {
+          "scale": "1322",
+          "until": 4728
+        },
+        {
+          "scale": "1319",
+          "until": 4752
+        },
+        {
+          "scale": "1316",
+          "until": 4776
+        },
+        {
+          "scale": "1313",
+          "until": 4800
+        },
+        {
+          "scale": "1311",
+          "until": 4824
+        },
+        {
+          "scale": "1309",
+          "until": 4848
+        },
+        {
+          "scale": "1307",
+          "until": 4872
+        },
+        {
+          "scale": "1305",
+          "until": 4896
+        },
+        {
+          "scale": "1303",
+          "until": 4920
+        },
+        {
+          "scale": "1302",
+          "until": 4944
+        },
+        {
+          "scale": "1300",
+          "until": 4968
+        },
+        {
+          "scale": "1299",
+          "until": 4992
+        },
+        {
+          "scale": "1298",
+          "until": 5016
+        },
+        {
+          "scale": "1297",
+          "until": 5040
+        },
+        {
+          "scale": "1296",
+          "until": 5064
+        },
+        {
+          "scale": "1295",
+          "until": 5088
+        },
+        {
+          "scale": "1294",
+          "until": 8064
+        },
+        {
+          "scale": "1293",
+          "until": 8088
+        },
+        {
+          "scale": "1292",
+          "until": 8136
+        },
+        {
+          "scale": "1291",
+          "until": 8160
+        },
+        {
+          "scale": "1290",
+          "until": 8184
+        },
+        {
+          "scale": "1289",
+          "until": 8208
+        },
+        {
+          "scale": "1288",
+          "until": 8232
+        },
+        {
+          "scale": "1287",
+          "until": 8256
+        },
+        {
+          "scale": "1286",
+          "until": 8280
+        },
+        {
+          "scale": "1285",
+          "until": 8304
+        },
+        {
+          "scale": "1284",
+          "until": 8328
+        },
+        {
+          "scale": "1282",
+          "until": 8352
+        },
+        {
+          "scale": "1281",
+          "until": 8376
+        },
+        {
+          "scale": "1279",
+          "until": 8400
+        },
+        {
+          "scale": "1277",
+          "until": 8424
+        },
+        {
+          "scale": "1275",
+          "until": 8448
+        },
+        {
+          "scale": "1272",
+          "until": 8472
+        },
+        {
+          "scale": "1270",
+          "until": 8496
+        },
+        {
+          "scale": "1267",
+          "until": 8520
+        },
+        {
+          "scale": "1263",
+          "until": 8544
+        },
+        {
+          "scale": "1259",
+          "until": 8568
+        },
+        {
+          "scale": "1255",
+          "until": 8592
+        },
+        {
+          "scale": "1249",
+          "until": 8616
+        },
+        {
+          "scale": "1244",
+          "until": 8640
+        },
+        {
+          "scale": "1237",
+          "until": 8664
+        },
+        {
+          "scale": "1229",
+          "until": 8688
+        },
+        {
+          "scale": "1221",
+          "until": 8712
+        },
+        {
+          "scale": "1212",
+          "until": 8736
+        },
+        {
+          "scale": "1202",
+          "until": 8760
+        },
+        {
+          "scale": "1191",
+          "until": 8784
+        },
+        {
+          "scale": "1181",
+          "until": 8808
+        },
+        {
+          "scale": "1171",
+          "until": 8832
+        },
+        {
+          "scale": "1162",
+          "until": 8856
+        },
+        {
+          "scale": "1153",
+          "until": 8880
+        },
+        {
+          "scale": "1146",
+          "until": 8904
+        },
+        {
+          "scale": "1139",
+          "until": 8928
+        },
+        {
+          "scale": "1133",
+          "until": 8952
+        },
+        {
+          "scale": "1128",
+          "until": 8976
+        },
+        {
+          "scale": "1123",
+          "until": 9000
+        },
+        {
+          "scale": "1119",
+          "until": 9024
+        },
+        {
+          "scale": "1116",
+          "until": 9048
+        },
+        {
+          "scale": "1113",
+          "until": 9072
+        },
+        {
+          "scale": "1110",
+          "until": 9096
+        },
+        {
+          "scale": "1107",
+          "until": 9120
+        },
+        {
+          "scale": "1105",
+          "until": 9144
+        },
+        {
+          "scale": "1103",
+          "until": 9168
+        },
+        {
+          "scale": "1101",
+          "until": 9192
+        },
+        {
+          "scale": "1100",
+          "until": 9216
+        },
+        {
+          "scale": "1098",
+          "until": 9240
+        },
+        {
+          "scale": "1097",
+          "until": 9264
+        },
+        {
+          "scale": "1096",
+          "until": 9288
+        },
+        {
+          "scale": "1095",
+          "until": 9312
+        },
+        {
+          "scale": "1094",
+          "until": 9336
+        },
+        {
+          "scale": "1093",
+          "until": 9360
+        },
+        {
+          "scale": "1092",
+          "until": 9384
+        },
+        {
+          "scale": "1091",
+          "until": 9408
+        },
+        {
+          "scale": "1090",
+          "until": 9432
+        },
+        {
+          "scale": "1089",
+          "until": 9480
+        },
+        {
+          "scale": "1088",
+          "until": 12432
+        },
+        {
+          "scale": "1087",
+          "until": 12456
+        },
+        {
+          "scale": "1085",
+          "until": 12480
+        },
+        {
+          "scale": "1084",
+          "until": 12504
+        },
+        {
+          "scale": "1082",
+          "until": 12528
+        },
+        {
+          "scale": "1081",
+          "until": 12552
+        },
+        {
+          "scale": "1079",
+          "until": 12576
+        },
+        {
+          "scale": "1077",
+          "until": 12600
+        },
+        {
+          "scale": "1075",
+          "until": 12624
+        },
+        {
+          "scale": "1073",
+          "until": 12648
+        },
+        {
+          "scale": "1070",
+          "until": 12672
+        },
+        {
+          "scale": "1067",
+          "until": 12696
+        },
+        {
+          "scale": "1065",
+          "until": 12720
+        },
+        {
+          "scale": "1061",
+          "until": 12744
+        },
+        {
+          "scale": "1058",
+          "until": 12768
+        },
+        {
+          "scale": "1054",
+          "until": 12792
+        },
+        {
+          "scale": "1049",
+          "until": 12816
+        },
+        {
+          "scale": "1044",
+          "until": 12840
+        },
+        {
+          "scale": "1039",
+          "until": 12864
+        },
+        {
+          "scale": "1033",
+          "until": 12888
+        },
+        {
+          "scale": "1025",
+          "until": 12912
+        },
+        {
+          "scale": "1017",
+          "until": 12936
+        },
+        {
+          "scale": "1008",
+          "until": 12960
+        },
+        {
+          "scale": "998",
+          "until": 12984
+        },
+        {
+          "scale": "986",
+          "until": 13008
+        },
+        {
+          "scale": "972",
+          "until": 13032
+        },
+        {
+          "scale": "956",
+          "until": 13056
+        },
+        {
+          "scale": "939",
+          "until": 13080
+        },
+        {
+          "scale": "920",
+          "until": 13104
+        },
+        {
+          "scale": "900",
+          "until": 13128
+        },
+        {
+          "scale": "879",
+          "until": 13152
+        },
+        {
+          "scale": "857",
+          "until": 13176
+        },
+        {
+          "scale": "837",
+          "until": 13200
+        },
+        {
+          "scale": "818",
+          "until": 13224
+        },
+        {
+          "scale": "800",
+          "until": 13248
+        },
+        {
+          "scale": "784",
+          "until": 13272
+        },
+        {
+          "scale": "770",
+          "until": 13296
+        },
+        {
+          "scale": "758",
+          "until": 13320
+        },
+        {
+          "scale": "747",
+          "until": 13344
+        },
+        {
+          "scale": "738",
+          "until": 13368
+        },
+        {
+          "scale": "730",
+          "until": 13392
+        },
+        {
+          "scale": "722",
+          "until": 13416
+        },
+        {
+          "scale": "716",
+          "until": 13440
+        },
+        {
+          "scale": "710",
+          "until": 13464
+        },
+        {
+          "scale": "705",
+          "until": 13488
+        },
+        {
+          "scale": "701",
+          "until": 13512
+        },
+        {
+          "scale": "697",
+          "until": 13536
+        },
+        {
+          "scale": "693",
+          "until": 13560
+        },
+        {
+          "scale": "689",
+          "until": 13584
+        },
+        {
+          "scale": "686",
+          "until": 13608
+        },
+        {
+          "scale": "684",
+          "until": 13632
+        },
+        {
+          "scale": "681",
+          "until": 13656
+        },
+        {
+          "scale": "679",
+          "until": 13680
+        },
+        {
+          "scale": "677",
+          "until": 13704
+        },
+        {
+          "scale": "675",
+          "until": 13728
+        },
+        {
+          "scale": "673",
+          "until": 13752
+        },
+        {
+          "scale": "671",
+          "until": 13776
+        },
+        {
+          "scale": "669",
+          "until": 13800
+        },
+        {
+          "scale": "668",
+          "until": 13824
+        },
+        {
+          "scale": "666",
+          "until": 13848
+        },
+        {
+          "scale": "665",
+          "until": 16848
+        },
+        {
+          "scale": "664",
+          "until": 16872
+        },
+        {
+          "scale": "663",
+          "until": 16896
+        },
+        {
+          "scale": "662",
+          "until": 16920
+        },
+        {
+          "scale": "661",
+          "until": 16944
+        },
+        {
+          "scale": "660",
+          "until": 16968
+        },
+        {
+          "scale": "659",
+          "until": 16992
+        },
+        {
+          "scale": "658",
+          "until": 17016
+        },
+        {
+          "scale": "657",
+          "until": 17040
+        },
+        {
+          "scale": "656",
+          "until": 17064
+        },
+        {
+          "scale": "655",
+          "until": 17088
+        },
+        {
+          "scale": "653",
+          "until": 17112
+        },
+        {
+          "scale": "651",
+          "until": 17136
+        },
+        {
+          "scale": "649",
+          "until": 17160
+        },
+        {
+          "scale": "647",
+          "until": 17184
+        },
+        {
+          "scale": "645",
+          "until": 17208
+        },
+        {
+          "scale": "643",
+          "until": 17232
+        },
+        {
+          "scale": "640",
+          "until": 17256
+        },
+        {
+          "scale": "636",
+          "until": 17280
+        },
+        {
+          "scale": "633",
+          "until": 17304
+        },
+        {
+          "scale": "629",
+          "until": 17328
+        },
+        {
+          "scale": "624",
+          "until": 17352
+        },
+        {
+          "scale": "618",
+          "until": 17376
+        },
+        {
+          "scale": "612",
+          "until": 17400
+        },
+        {
+          "scale": "605",
+          "until": 17424
+        },
+        {
+          "scale": "597",
+          "until": 17448
+        },
+        {
+          "scale": "588",
+          "until": 17472
+        },
+        {
+          "scale": "578",
+          "until": 17496
+        },
+        {
+          "scale": "568",
+          "until": 17520
+        },
+        {
+          "scale": "557",
+          "until": 17544
+        },
+        {
+          "scale": "546",
+          "until": 17568
+        },
+        {
+          "scale": "536",
+          "until": 17592
+        },
+        {
+          "scale": "526",
+          "until": 17616
+        },
+        {
+          "scale": "517",
+          "until": 17640
+        },
+        {
+          "scale": "509",
+          "until": 17664
+        },
+        {
+          "scale": "502",
+          "until": 17688
+        },
+        {
+          "scale": "495",
+          "until": 17712
+        },
+        {
+          "scale": "490",
+          "until": 17736
+        },
+        {
+          "scale": "485",
+          "until": 17760
+        },
+        {
+          "scale": "481",
+          "until": 17784
+        },
+        {
+          "scale": "477",
+          "until": 17808
+        },
+        {
+          "scale": "474",
+          "until": 17832
+        },
+        {
+          "scale": "471",
+          "until": 17856
+        },
+        {
+          "scale": "468",
+          "until": 17880
+        },
+        {
+          "scale": "466",
+          "until": 17904
+        },
+        {
+          "scale": "464",
+          "until": 17928
+        },
+        {
+          "scale": "462",
+          "until": 17952
+        },
+        {
+          "scale": "460",
+          "until": 17976
+        },
+        {
+          "scale": "459",
+          "until": 18000
+        },
+        {
+          "scale": "457",
+          "until": 18024
+        },
+        {
+          "scale": "456",
+          "until": 18048
+        },
+        {
+          "scale": "455",
+          "until": 18072
+        },
+        {
+          "scale": "454",
+          "until": 18096
+        },
+        {
+          "scale": "453",
+          "until": 18120
+        },
+        {
+          "scale": "452",
+          "until": 18144
+        },
+        {
+          "scale": "451",
+          "until": 18168
+        },
+        {
+          "scale": "450",
+          "until": 18192
+        },
+        {
+          "scale": "449",
+          "until": 18216
+        },
+        {
+          "scale": "448",
+          "until": 21192
+        },
+        {
+          "scale": "447",
+          "until": 21264
+        },
+        {
+          "scale": "446",
+          "until": 21312
+        },
+        {
+          "scale": "445",
+          "until": 21360
+        },
+        {
+          "scale": "444",
+          "until": 21408
+        },
+        {
+          "scale": "443",
+          "until": 21432
+        },
+        {
+          "scale": "442",
+          "until": 21480
+        },
+        {
+          "scale": "441",
+          "until": 21504
+        },
+        {
+          "scale": "440",
+          "until": 21528
+        },
+        {
+          "scale": "439",
+          "until": 21552
+        },
+        {
+          "scale": "438",
+          "until": 21576
+        },
+        {
+          "scale": "436",
+          "until": 21600
+        },
+        {
+          "scale": "435",
+          "until": 21624
+        },
+        {
+          "scale": "433",
+          "until": 21648
+        },
+        {
+          "scale": "431",
+          "until": 21672
+        },
+        {
+          "scale": "429",
+          "until": 21696
+        },
+        {
+          "scale": "427",
+          "until": 21720
+        },
+        {
+          "scale": "424",
+          "until": 21744
+        },
+        {
+          "scale": "421",
+          "until": 21768
+        },
+        {
+          "scale": "417",
+          "until": 21792
+        },
+        {
+          "scale": "413",
+          "until": 21816
+        },
+        {
+          "scale": "409",
+          "until": 21840
+        },
+        {
+          "scale": "404",
+          "until": 21864
+        },
+        {
+          "scale": "398",
+          "until": 21888
+        },
+        {
+          "scale": "393",
+          "until": 21912
+        },
+        {
+          "scale": "387",
+          "until": 21936
+        },
+        {
+          "scale": "382",
+          "until": 21960
+        },
+        {
+          "scale": "377",
+          "until": 21984
+        },
+        {
+          "scale": "372",
+          "until": 22008
+        },
+        {
+          "scale": "368",
+          "until": 22032
+        },
+        {
+          "scale": "365",
+          "until": 22056
+        },
+        {
+          "scale": "361",
+          "until": 22080
+        },
+        {
+          "scale": "359",
+          "until": 22104
+        },
+        {
+          "scale": "356",
+          "until": 22128
+        },
+        {
+          "scale": "354",
+          "until": 22152
+        },
+        {
+          "scale": "352",
+          "until": 22176
+        },
+        {
+          "scale": "351",
+          "until": 22200
+        },
+        {
+          "scale": "349",
+          "until": 22224
+        },
+        {
+          "scale": "348",
+          "until": 22248
+        },
+        {
+          "scale": "347",
+          "until": 22272
+        },
+        {
+          "scale": "346",
+          "until": 22296
+        },
+        {
+          "scale": "345",
+          "until": 22320
+        },
+        {
+          "scale": "344",
+          "until": 22344
+        },
+        {
+          "scale": "343",
+          "until": 22368
+        },
+        {
+          "scale": "342",
+          "until": 22416
+        },
+        {
+          "scale": "341",
+          "until": 22440
+        },
+        {
+          "scale": "340",
+          "until": 22488
+        },
+        {
+          "scale": "339",
+          "until": 22560
+        },
+        {
+          "scale": "338",
+          "until": 22608
+        },
+        {
+          "scale": "337",
+          "until": 25632
+        },
+        {
+          "scale": "336",
+          "until": 25680
+        },
+        {
+          "scale": "335",
+          "until": 25728
+        },
+        {
+          "scale": "334",
+          "until": 25776
+        },
+        {
+          "scale": "333",
+          "until": 25824
+        },
+        {
+          "scale": "332",
+          "until": 25848
+        },
+        {
+          "scale": "331",
+          "until": 25872
+        },
+        {
+          "scale": "330",
+          "until": 25896
+        },
+        {
+          "scale": "329",
+          "until": 25920
+        },
+        {
+          "scale": "328",
+          "until": 25944
+        },
+        {
+          "scale": "327",
+          "until": 25968
+        },
+        {
+          "scale": "326",
+          "until": 25992
+        },
+        {
+          "scale": "324",
+          "until": 26016
+        },
+        {
+          "scale": "323",
+          "until": 26040
+        },
+        {
+          "scale": "321",
+          "until": 26064
+        },
+        {
+          "scale": "319",
+          "until": 26088
+        },
+        {
+          "scale": "316",
+          "until": 26112
+        },
+        {
+          "scale": "313",
+          "until": 26136
+        },
+        {
+          "scale": "310",
+          "until": 26160
+        },
+        {
+          "scale": "307",
+          "until": 26184
+        },
+        {
+          "scale": "302",
+          "until": 26208
+        },
+        {
+          "scale": "298",
+          "until": 26232
+        },
+        {
+          "scale": "293",
+          "until": 26256
+        },
+        {
+          "scale": "287",
+          "until": 26280
+        },
+        {
+          "scale": "282",
+          "until": 26304
+        },
+        {
+          "scale": "276",
+          "until": 26328
+        },
+        {
+          "scale": "271",
+          "until": 26352
+        },
+        {
+          "scale": "266",
+          "until": 26376
+        },
+        {
+          "scale": "261",
+          "until": 26400
+        },
+        {
+          "scale": "257",
+          "until": 26424
+        },
+        {
+          "scale": "254",
+          "until": 26448
+        },
+        {
+          "scale": "250",
+          "until": 26472
+        },
+        {
+          "scale": "247",
+          "until": 26496
+        },
+        {
+          "scale": "245",
+          "until": 26520
+        },
+        {
+          "scale": "243",
+          "until": 26544
+        },
+        {
+          "scale": "241",
+          "until": 26568
+        },
+        {
+          "scale": "239",
+          "until": 26592
+        },
+        {
+          "scale": "238",
+          "until": 26616
+        },
+        {
+          "scale": "236",
+          "until": 26640
+        },
+        {
+          "scale": "235",
+          "until": 26664
+        },
+        {
+          "scale": "234",
+          "until": 26688
+        },
+        {
+          "scale": "233",
+          "until": 26712
+        },
+        {
+          "scale": "232",
+          "until": 26760
+        },
+        {
+          "scale": "231",
+          "until": 26784
+        },
+        {
+          "scale": "230",
+          "until": 26832
+        },
+        {
+          "scale": "229",
+          "until": 26880
+        },
+        {
+          "scale": "228",
+          "until": 26928
+        },
+        {
+          "scale": "227",
+          "until": 26976
+        },
+        {
+          "scale": "226",
+          "until": 34344
+        },
+        {
+          "scale": "225",
+          "until": 34392
+        },
+        {
+          "scale": "224",
+          "until": 34416
+        },
+        {
+          "scale": "223",
+          "until": 34440
+        },
+        {
+          "scale": "222",
+          "until": 34464
+        },
+        {
+          "scale": "221",
+          "until": 34488
+        },
+        {
+          "scale": "220",
+          "until": 34512
+        },
+        {
+          "scale": "219",
+          "until": 34536
+        },
+        {
+          "scale": "218",
+          "until": 34560
+        },
+        {
+          "scale": "216",
+          "until": 34584
+        },
+        {
+          "scale": "215",
+          "until": 34608
+        },
+        {
+          "scale": "213",
+          "until": 34632
+        },
+        {
+          "scale": "212",
+          "until": 34656
+        },
+        {
+          "scale": "210",
+          "until": 34680
+        },
+        {
+          "scale": "208",
+          "until": 34704
+        },
+        {
+          "scale": "205",
+          "until": 34728
+        },
+        {
+          "scale": "203",
+          "until": 34752
+        },
+        {
+          "scale": "200",
+          "until": 34776
+        },
+        {
+          "scale": "196",
+          "until": 34800
+        },
+        {
+          "scale": "192",
+          "until": 34824
+        },
+        {
+          "scale": "188",
+          "until": 34848
+        },
+        {
+          "scale": "183",
+          "until": 34872
+        },
+        {
+          "scale": "177",
+          "until": 34896
+        },
+        {
+          "scale": "171",
+          "until": 34920
+        },
+        {
+          "scale": "164",
+          "until": 34944
+        },
+        {
+          "scale": "155",
+          "until": 34968
+        },
+        {
+          "scale": "146",
+          "until": 34992
+        },
+        {
+          "scale": "136",
+          "until": 35016
+        },
+        {
+          "scale": "125",
+          "until": 35040
+        },
+        {
+          "scale": "114",
+          "until": 35064
+        },
+        {
+          "scale": "102",
+          "until": 35088
+        },
+        {
+          "scale": "91",
+          "until": 35112
+        },
+        {
+          "scale": "81",
+          "until": 35136
+        },
+        {
+          "scale": "72",
+          "until": 35160
+        },
+        {
+          "scale": "63",
+          "until": 35184
+        },
+        {
+          "scale": "56",
+          "until": 35208
+        },
+        {
+          "scale": "49",
+          "until": 35232
+        },
+        {
+          "scale": "44",
+          "until": 35256
+        },
+        {
+          "scale": "39",
+          "until": 35280
+        },
+        {
+          "scale": "34",
+          "until": 35304
+        },
+        {
+          "scale": "30",
+          "until": 35328
+        },
+        {
+          "scale": "27",
+          "until": 35352
+        },
+        {
+          "scale": "24",
+          "until": 35376
+        },
+        {
+          "scale": "21",
+          "until": 35400
+        },
+        {
+          "scale": "19",
+          "until": 35424
+        },
+        {
+          "scale": "17",
+          "until": 35448
+        },
+        {
+          "scale": "15",
+          "until": 35472
+        },
+        {
+          "scale": "13",
+          "until": 35496
+        },
+        {
+          "scale": "11",
+          "until": 35520
+        },
+        {
+          "scale": "10",
+          "until": 35544
+        },
+        {
+          "scale": "8",
+          "until": 35568
+        },
+        {
+          "scale": "7",
+          "until": 35592
+        },
+        {
+          "scale": "6",
+          "until": 35616
+        },
+        {
+          "scale": "5",
+          "until": 35640
+        },
+        {
+          "scale": "4",
+          "until": 35664
+        },
+        {
+          "scale": "3",
+          "until": 35688
+        },
+        {
+          "scale": "2",
+          "until": 35712
+        },
+        {
+          "scale": "1",
+          "until": 35760
+        }
+      ],
+      "signing_reward_threshold_denominator": 4,
+      "signing_reward_threshold_numerator": 3,
+      "slashing": {
+        "0": {
+          "amount": "100000000000",
+          "freeze_interval": 18446744073709551615
+        }
+      },
+      "thresholds": {
+        "entity": "100000000000",
+        "node-compute": "100000000000",
+        "node-keymanager": "100000000000",
+        "node-storage": "100000000000",
+        "node-validator": "100000000000",
+        "runtime-compute": "500000000000",
+        "runtime-keymanager": "50000000000000"
+      }
+    },
+    "token_symbol": "QAQ",
+    "token_value_exponent": 9,
+    "total_supply": "10000000000000000000"
+  }
+}

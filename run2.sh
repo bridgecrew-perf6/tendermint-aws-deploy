@@ -15,8 +15,8 @@ REPOPATH=$(pwd)
 
 git clone https://github.com/Intelligent-Systems-Lab/ISL-BCFL
 
-cp -r script .
-cp -r nodes .
+cp -r ISL-BCFL/script .
+cp -r ISL-BCFL/nodes .
 
 rm -r ISL-BCFL
 
