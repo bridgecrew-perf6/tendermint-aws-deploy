@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  node0:
+    image: tony92151/tendermint-docker
+    container_name: node0
+    ports:
+      - "26656-26657:26656-26657"
+    environment:
+      - MODE=node
+      - ID=0
+    volumes:
+      - ./script:/root
+      - ./nodes:/tendermint
+    entrypoint: /bin/bash
+    command: /root/entrypoint.sh
+    networks:
+      localnet:
+        ipv4_address: 172.168.10.2
+
+  abci0:
+    container_name: abci0
+    image: tony92151/tendermint-docker
+    environment:
+      - MODE=app
+      - ID=0
+    volumes:
+      - ./script:/root
+      - ./nodes:/tendermint
+    entrypoint: /bin/bash
+    command: /root/entrypoint.sh
+    networks:
+      localnet:
+        ipv4_address: 172.168.10.6
+
+
+networks:
+  localnet:
+    ipam:
+      config:
+      -
+        subnet: 172.168.10.0/16
