@@ -15,13 +15,18 @@ sudo apt-get update && sudo apt-get -y upgrade && sudo apt-get install unzip
 wget -qO - https://github.com/tony92151/oasis-aws-deploy/raw/main/install_doc.sh | bash
 ```
 
-2. Download pre-config node data and setup
+2. Download pre-config validator node data and setup
 
 ```bash=
-#wget https://github.com/tony92151/oasis-aws-deploy/raw/main/run1.sh && bash run1.sh
-
-
 git clone https://github.com/tony92151/oasis-aws-deploy
 cd oasis-aws-deploy
-sudo bash run2.sh
+sudo bash run_val.sh
+```
+
+3. Download pre-config sentry node data and setup
+
+```bash=
+git clone https://github.com/tony92151/oasis-aws-deploy
+cd oasis-aws-deploy
+sudo bash run_sen.sh
 ```
