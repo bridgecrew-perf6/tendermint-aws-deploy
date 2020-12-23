@@ -39,10 +39,10 @@ read -p "Enter sentry-node0's address: "  SNODE0
 read -p "Enter sentry-node1's address: "  SNODE1
 read -p "Enter sentry-node2's address: "  SNODE2
 read -p "Enter sentry-node3's address: "  SNODE3
-sed -i "s+sne0:26656+$NODE0:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
-sed -i "s+sen1:26656+$NODE1:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
-sed -i "s+sen2:26656+$NODE2:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
-sed -i "s+sen3:26656+$NODE3:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+sne0:26656+$SNODE0:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+sen1:26656+$SNODE1:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+sen2:26656+$SNODE2:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
+sed -i "s+sen3:26656+$SNODE3:26656+" $REPOPATH/nodes/mytestnet/node$NODENUM/config/config.toml
 
 #node0:26656
 
