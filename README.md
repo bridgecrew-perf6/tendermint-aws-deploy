@@ -1,4 +1,4 @@
-# oasis-aws-deploy
+# -aws-deploy
 
 In this repo, we try to deploy oasis-nodes but fail.
 
